@@ -14,6 +14,10 @@ Brain Streaming Layer
     :class: logo
     :align: center
 
+.. warning::
+
+    Development of BSL is discontinued in favor of <MNE-LSL_>_.
+
 Open-source Python package for real-time brain signal streaming framework
 based on the `Lab Streaming Layer (LSL) <lsl intro_>`_.
 
