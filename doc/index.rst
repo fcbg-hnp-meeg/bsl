@@ -16,7 +16,9 @@ Brain Streaming Layer
 
 .. warning::
 
-    Development of BSL is discontinued in favor of <MNE-LSL_>_.
+    Development of BSL is discontinued in favor of `MNE-LSL <mne-lsl_>`_. The trigger
+    module has been moved to the package
+    `byte-triggers <https://github.com/fcbg-hnp-meeg/byte-triggers>`_.
 
 Open-source Python package for real-time brain signal streaming framework
 based on the `Lab Streaming Layer (LSL) <lsl intro_>`_.
@@ -59,4 +61,3 @@ The development of ``BSL`` is supported by the
     api/index.rst
     command_line.rst
     generated/tutorials/index.rst
-    changes/index.rst
