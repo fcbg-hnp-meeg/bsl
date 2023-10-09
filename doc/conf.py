@@ -225,9 +225,9 @@ def linkcode_resolve(domain: str, info: Dict[str, str]) -> Optional[str]:
 
     # create URL
     if "dev" in release:
-        branch = "main"
+        return None  # not supported anymore
     else:
-        return None  # alternatively, link to a maint/version branch
+        branch = "maint/0.6"
     fname = fname.rsplit(f"/{package}/")[1]
     url = f"{gh_url}/blob/{branch}/{package}/{fname}#{lines}"
     return url
