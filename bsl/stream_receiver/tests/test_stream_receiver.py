@@ -25,7 +25,7 @@ def test_stream_receiver():
 
         # test infos
         info = sr.mne_infos[stream]
-        assert isinstance(info, mne.io.Info)
+        assert isinstance(info, mne.Info)
         assert info.ch_names == sr.streams[stream].ch_list
         assert info["sfreq"] == sr.streams[stream].sample_rate
         info._check_consistency()
@@ -186,7 +186,7 @@ def test_properties():
         assert sr.mne_infos == sr._mne_infos
         assert isinstance(sr.mne_infos, dict)
         assert len(sr.mne_infos) == 1
-        assert isinstance(sr.mne_infos["StreamPlayer"], mne.io.Info)
+        assert isinstance(sr.mne_infos["StreamPlayer"], mne.Info)
         assert sr.streams == sr._streams
         assert isinstance(sr.streams, dict)
         assert len(sr.streams) == 1
