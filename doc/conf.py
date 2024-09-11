@@ -65,6 +65,9 @@ modindex_common_prefix = [f"{package}."]
 # make `filter` a cross-reference to the Python function “filter”.
 default_role = "py:obj"
 
+# list of warning types to suppress
+suppress_warnings = ["config.cache"]
+
 # -- options for HTML output -------------------------------------------------
 html_theme = "furo"
 html_static_path = ["_static"]
