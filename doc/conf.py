@@ -242,7 +242,7 @@ sphinx_gallery_conf = {
     "filename_pattern": r"\d{2}_",
     "gallery_dirs": ["generated/tutorials"],
     "line_numbers": False,
-    "plot_gallery": True,
+    "plot_gallery": "True",
     "reference_url": {f"{package}": None},
     "remove_config_comments": True,
     "show_memory": True,
