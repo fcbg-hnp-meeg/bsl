@@ -1,0 +1,11 @@
+﻿bsl.triggers.ParallelPortTrigger
+================================
+
+.. currentmodule:: bsl.triggers
+
+.. autoclass:: ParallelPortTrigger
+   :members:
+   :inherited-members:
+
+.. minigallery:: bsl.triggers.ParallelPortTrigger
+    :add-heading:

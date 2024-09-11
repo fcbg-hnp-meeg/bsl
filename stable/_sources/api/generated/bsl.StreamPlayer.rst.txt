@@ -1,0 +1,11 @@
+﻿bsl.StreamPlayer
+================
+
+.. currentmodule:: bsl
+
+.. autoclass:: StreamPlayer
+   :members:
+   :inherited-members:
+
+.. minigallery:: bsl.StreamPlayer
+    :add-heading:

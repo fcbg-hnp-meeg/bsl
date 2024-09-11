@@ -1,0 +1,9 @@
+﻿bsl.lsl.library\_version
+========================
+
+.. currentmodule:: bsl.lsl
+
+.. autofunction:: library_version
+
+.. minigallery:: bsl.lsl.library_version
+    :add-heading:

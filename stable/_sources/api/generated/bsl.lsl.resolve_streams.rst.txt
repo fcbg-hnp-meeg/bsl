@@ -1,0 +1,9 @@
+﻿bsl.lsl.resolve\_streams
+========================
+
+.. currentmodule:: bsl.lsl
+
+.. autofunction:: resolve_streams
+
+.. minigallery:: bsl.lsl.resolve_streams
+    :add-heading:

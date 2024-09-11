@@ -1,0 +1,11 @@
+﻿bsl.triggers.MockTrigger
+========================
+
+.. currentmodule:: bsl.triggers
+
+.. autoclass:: MockTrigger
+   :members:
+   :inherited-members:
+
+.. minigallery:: bsl.triggers.MockTrigger
+    :add-heading:

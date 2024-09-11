@@ -1,0 +1,9 @@
+﻿bsl.add\_file\_handler
+======================
+
+.. currentmodule:: bsl
+
+.. autofunction:: add_file_handler
+
+.. minigallery:: bsl.add_file_handler
+    :add-heading:

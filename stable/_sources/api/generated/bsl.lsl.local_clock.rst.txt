@@ -1,0 +1,9 @@
+﻿bsl.lsl.local\_clock
+====================
+
+.. currentmodule:: bsl.lsl
+
+.. autofunction:: local_clock
+
+.. minigallery:: bsl.lsl.local_clock
+    :add-heading:

@@ -1,0 +1,9 @@
+﻿bsl.utils.lsl.lsl\_channel\_list
+================================
+
+.. currentmodule:: bsl.utils.lsl
+
+.. autofunction:: lsl_channel_list
+
+.. minigallery:: bsl.utils.lsl.lsl_channel_list
+    :add-heading:

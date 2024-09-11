@@ -1,0 +1,9 @@
+﻿bsl.datasets.eeg\_resting\_state.data\_path
+===========================================
+
+.. currentmodule:: bsl.datasets.eeg_resting_state
+
+.. autofunction:: data_path
+
+.. minigallery:: bsl.datasets.eeg_resting_state.data_path
+    :add-heading:

@@ -1,0 +1,11 @@
+﻿bsl.lsl.StreamInfo
+==================
+
+.. currentmodule:: bsl.lsl
+
+.. autoclass:: StreamInfo
+   :members:
+   :inherited-members:
+
+.. minigallery:: bsl.lsl.StreamInfo
+    :add-heading:

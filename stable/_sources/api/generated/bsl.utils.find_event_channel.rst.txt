@@ -1,0 +1,9 @@
+﻿bsl.utils.find\_event\_channel
+==============================
+
+.. currentmodule:: bsl.utils
+
+.. autofunction:: find_event_channel
+
+.. minigallery:: bsl.utils.find_event_channel
+    :add-heading:

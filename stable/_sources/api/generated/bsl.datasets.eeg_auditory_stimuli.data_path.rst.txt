@@ -1,0 +1,9 @@
+﻿bsl.datasets.eeg\_auditory\_stimuli.data\_path
+==============================================
+
+.. currentmodule:: bsl.datasets.eeg_auditory_stimuli
+
+.. autofunction:: data_path
+
+.. minigallery:: bsl.datasets.eeg_auditory_stimuli.data_path
+    :add-heading:

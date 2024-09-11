@@ -1,0 +1,11 @@
+﻿bsl.triggers.LSLTrigger
+=======================
+
+.. currentmodule:: bsl.triggers
+
+.. autoclass:: LSLTrigger
+   :members:
+   :inherited-members:
+
+.. minigallery:: bsl.triggers.LSLTrigger
+    :add-heading:

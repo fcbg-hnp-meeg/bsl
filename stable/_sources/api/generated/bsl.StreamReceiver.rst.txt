@@ -1,0 +1,11 @@
+﻿bsl.StreamReceiver
+==================
+
+.. currentmodule:: bsl
+
+.. autoclass:: StreamReceiver
+   :members:
+   :inherited-members:
+
+.. minigallery:: bsl.StreamReceiver
+    :add-heading:

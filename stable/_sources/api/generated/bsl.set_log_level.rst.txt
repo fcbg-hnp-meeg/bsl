@@ -1,0 +1,9 @@
+﻿bsl.set\_log\_level
+===================
+
+.. currentmodule:: bsl
+
+.. autofunction:: set_log_level
+
+.. minigallery:: bsl.set_log_level
+    :add-heading:

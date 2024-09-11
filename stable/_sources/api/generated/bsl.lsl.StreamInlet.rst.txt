@@ -1,0 +1,11 @@
+﻿bsl.lsl.StreamInlet
+===================
+
+.. currentmodule:: bsl.lsl
+
+.. autoclass:: StreamInlet
+   :members:
+   :inherited-members:
+
+.. minigallery:: bsl.lsl.StreamInlet
+    :add-heading:

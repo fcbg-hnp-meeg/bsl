@@ -1,0 +1,9 @@
+﻿bsl.datasets.trigger\_def.data\_path
+====================================
+
+.. currentmodule:: bsl.datasets.trigger_def
+
+.. autofunction:: data_path
+
+.. minigallery:: bsl.datasets.trigger_def.data_path
+    :add-heading:

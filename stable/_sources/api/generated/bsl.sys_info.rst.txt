@@ -1,0 +1,9 @@
+﻿bsl.sys\_info
+=============
+
+.. currentmodule:: bsl
+
+.. autofunction:: sys_info
+
+.. minigallery:: bsl.sys_info
+    :add-heading:

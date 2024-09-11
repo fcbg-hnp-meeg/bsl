@@ -1,0 +1,11 @@
+﻿bsl.StreamRecorder
+==================
+
+.. currentmodule:: bsl
+
+.. autoclass:: StreamRecorder
+   :members:
+   :inherited-members:
+
+.. minigallery:: bsl.StreamRecorder
+    :add-heading:

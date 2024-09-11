@@ -1,0 +1,11 @@
+﻿bsl.triggers.TriggerDef
+=======================
+
+.. currentmodule:: bsl.triggers
+
+.. autoclass:: TriggerDef
+   :members:
+   :inherited-members:
+
+.. minigallery:: bsl.triggers.TriggerDef
+    :add-heading:

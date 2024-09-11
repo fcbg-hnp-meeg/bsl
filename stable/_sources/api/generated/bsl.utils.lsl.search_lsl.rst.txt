@@ -1,0 +1,9 @@
+﻿bsl.utils.lsl.search\_lsl
+=========================
+
+.. currentmodule:: bsl.utils.lsl
+
+.. autofunction:: search_lsl
+
+.. minigallery:: bsl.utils.lsl.search_lsl
+    :add-heading:
