@@ -11,14 +11,14 @@
 .. project
 
 .. _project pypi: https://pypi.org/project/bsl/
-.. _project github: https://github.com/fcbg-hnp-meeg/bsl
-.. _project license: https://github.com/fcbg-hnp-meeg/bsl/blob/main/LICENSE
+.. _project github: https://github.com/fcbg-platforms/bsl
+.. _project license: https://github.com/fcbg-platforms/bsl/blob/main/LICENSE
 
 
 .. fcbg
 
-.. _fcbg hnp: https://hnp.fcbg.ch/
-.. _fcbg hnp gh-demo-rt: https://github.com/fcbg-hnp-meeg/demo-realtime
+.. _fcbg: https://fcbg.ch/
+.. _fcbg gh-demo-rt: https://github.com/fcbg-platforms/demo-realtime
 
 
 .. license

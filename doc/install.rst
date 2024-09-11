@@ -28,7 +28,7 @@ Default install
 
         .. code-block:: console
 
-            $ pip install git+https://github.com/fcbg-hnp-meeg/bsl
+            $ pip install git+https://github.com/fcbg-platforms/bsl
 
 Optional dependencies
 ---------------------

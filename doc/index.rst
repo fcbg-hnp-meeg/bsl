@@ -18,7 +18,7 @@ Brain Streaming Layer
 
     Development of BSL is discontinued in favor of `MNE-LSL <mne-lsl_>`_. The trigger
     module has been moved to the package
-    `byte-triggers <https://github.com/fcbg-hnp-meeg/byte-triggers>`_.
+    `byte-triggers <https://github.com/fcbg-platforms/byte-triggers>`_.
 
 Open-source Python package for real-time brain signal streaming framework
 based on the `Lab Streaming Layer (LSL) <lsl intro_>`_.
@@ -42,16 +42,16 @@ version of `liblsl <lsl lib c++_>`_. If you want to use a different version of
 
         .. code-block:: console
 
-            $ pip install git+https://github.com/fcbg-hnp-meeg/bsl
+            $ pip install git+https://github.com/fcbg-platforms/bsl
 
 Supporting institutions
 -----------------------
 
 The development of ``BSL`` is supported by the
-`Human Neuroscience Platform, Fondation Campus Biotech Geneva <fcbg hnp_>`_.
+`Fondation Campus Biotech Geneva <fcbg_>`_.
 
-.. image:: _static/partners/fcbg-hnp-meeg.png
-    :alt: FCBG - HNP - MEEG/BCI Platform
+.. image:: _static/partners/FCBG.svg
+    :alt: FCBG - M/EEG-NMOD Platform
     :width: 150
 
 .. toctree::

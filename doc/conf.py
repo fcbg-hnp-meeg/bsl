@@ -21,7 +21,7 @@ author = "M. Scheltienne, A. Desvachez, K. Lee"
 copyright = f"{date.today().year}, {author}"
 release = bsl.__version__
 package = bsl.__name__
-gh_url = "https://github.com/fcbg-hnp-meeg/bsl"
+gh_url = "https://github.com/fcbg-platforms/bsl"
 
 # -- general configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

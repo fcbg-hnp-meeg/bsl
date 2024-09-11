@@ -101,10 +101,10 @@ full = [
 ]
 
 [project.urls]
-homepage = 'https://bsl-tools.github.io/'
-documentation = 'https://bsl-tools.github.io/'
-source = 'https://github.com/fcbg-hnp-meeg/bsl'
-tracker = 'https://github.com/fcbg-hnp-meeg/bsl/issues'
+homepage = 'https://fcbg-platforms.github.io/bsl/'
+documentation = 'https://fcbg-platforms.github.io/bsl/'
+source = 'https://github.com/fcbg-platforms/bsl'
+tracker = 'https://github.com/fcbg-platforms/bsl/issues'
 
 [project.scripts]
 bsl = 'bsl.commands.main:run'
