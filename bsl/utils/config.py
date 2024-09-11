@@ -110,9 +110,11 @@ def _list_dependencies_info(
 
     if len(not_found) != 0:
         not_found = [
-            f"{dep.name} ({str(dep.specifier)})"
-            if len(dep.specifier) != 0
-            else dep.name
+            (
+                f"{dep.name} ({str(dep.specifier)})"
+                if len(dep.specifier) != 0
+                else dep.name
+            )
             for dep in not_found
         ]
         if unicode:

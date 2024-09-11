@@ -82,8 +82,9 @@ def test_stream_receiver():
 @requires_eeg_resting_state_dataset
 def test_receiving_multi_streams():
     """Test StreamReceiver multi-streams functionalities."""
-    with StreamPlayer("StreamPlayer1", eeg_resting_state.data_path()), StreamPlayer(
-        "StreamPlayer2", eeg_resting_state.data_path()
+    with (
+        StreamPlayer("StreamPlayer1", eeg_resting_state.data_path()),
+        StreamPlayer("StreamPlayer2", eeg_resting_state.data_path()),
     ):
         # test connect to only one
         sr = StreamReceiver(bufsize=1, winsize=0.2, stream_name="StreamPlayer1")
@@ -214,8 +215,9 @@ def test_properties():
 @requires_eeg_resting_state_dataset
 def test_get_method_warning_and_errors(caplog):
     """Test the checking done in get_xxx methods."""
-    with StreamPlayer("StreamPlayer1", eeg_resting_state.data_path()), StreamPlayer(
-        "StreamPlayer2", eeg_resting_state.data_path()
+    with (
+        StreamPlayer("StreamPlayer1", eeg_resting_state.data_path()),
+        StreamPlayer("StreamPlayer2", eeg_resting_state.data_path()),
     ):
         sr = StreamReceiver(bufsize=1, winsize=1, stream_name=None)
 
@@ -319,8 +321,9 @@ def test_get_method_warning_and_errors(caplog):
 @requires_eeg_resting_state_dataset
 def test_connect_disconnect():
     """Test connect and disconnect methods."""
-    with StreamPlayer("StreamPlayer1", eeg_resting_state.data_path()), StreamPlayer(
-        "StreamPlayer2", eeg_resting_state.data_path()
+    with (
+        StreamPlayer("StreamPlayer1", eeg_resting_state.data_path()),
+        StreamPlayer("StreamPlayer2", eeg_resting_state.data_path()),
     ):
         sr = StreamReceiver(bufsize=1, winsize=1, stream_name="StreamPlayer1")
         assert sr.connected

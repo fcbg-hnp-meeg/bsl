@@ -118,8 +118,9 @@ def test_recording_multiple_streams(tmp_path):
     dataset = eeg_resting_state
     fif_subdir = False
 
-    with StreamPlayer("StreamPlayer1", dataset.data_path()), StreamPlayer(
-        "StreamPlayer2", dataset.data_path()
+    with (
+        StreamPlayer("StreamPlayer1", dataset.data_path()),
+        StreamPlayer("StreamPlayer2", dataset.data_path()),
     ):
         # Record only StreamPlayer1
         recorder = StreamRecorder(

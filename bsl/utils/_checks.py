@@ -87,11 +87,11 @@ def check_type(item: Any, types: tuple, item_name: Optional[str] = None) -> None
     """
     check_types = sum(
         (
-            (type(None),)
-            if type_ is None
-            else (type_,)
-            if not isinstance(type_, str)
-            else _types[type_]
+            (
+                (type(None),)
+                if type_ is None
+                else (type_,) if not isinstance(type_, str) else _types[type_]
+            )
             for type_ in types
         ),
         (),
@@ -99,11 +99,11 @@ def check_type(item: Any, types: tuple, item_name: Optional[str] = None) -> None
 
     if not isinstance(item, check_types):
         type_name = [
-            "None"
-            if cls_ is None
-            else cls_.__name__
-            if not isinstance(cls_, str)
-            else cls_
+            (
+                "None"
+                if cls_ is None
+                else cls_.__name__ if not isinstance(cls_, str) else cls_
+            )
             for cls_ in types
         ]
         if len(type_name) == 1:
