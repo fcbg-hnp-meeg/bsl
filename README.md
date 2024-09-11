@@ -2,7 +2,6 @@
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 [![codecov](https://codecov.io/gh/fcbg-platforms/bsl/graph/badge.svg?token=grHKQLaeei)](https://codecov.io/gh/fcbg-platforms/bsl)
 [![tests](https://github.com/fcbg-platforms/bsl/actions/workflows/pytest.yml/badge.svg?branch=maint/0.6)](https://github.com/fcbg-platforms/bsl/actions/workflows/pytest.yml)
-[![build](https://github.com/fcbg-platforms/bsl/actions/workflows/build.yml/badge.svg?branch=maint/0.6)](https://github.com/fcbg-platforms/bsl/actions/workflows/build.yml)
 [![doc](https://github.com/fcbg-platforms/bsl/actions/workflows/doc.yml/badge.svg?branch=maint/0.6)](https://github.com/fcbg-platforms/bsl/actions/workflows/doc.yml)
 [![PyPI version](https://badge.fury.io/py/bsl.svg)](https://badge.fury.io/py/bsl)
 [![Downloads](https://static.pepy.tech/personalized-badge/bsl?period=total&units=international_system&left_color=grey&right_color=blue&left_text=pypi%20downloads)](https://pepy.tech/project/bsl)
